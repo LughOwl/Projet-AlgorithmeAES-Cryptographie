@@ -17,6 +17,8 @@ void ChiffrementAES::faireChiffrement() const{
         cout << "Erreur: impossible d'ouvrir le fichier " + chaine << endl;
     }
 
+
+
     //Boucle While pour traiter le message par bloc de 128 bits (4 mots de 32 bits)
     //Generation des cles de ronde (p23 du poly)
     //Chiffrement du bloc (p28 du poly)

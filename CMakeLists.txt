@@ -4,4 +4,6 @@ project(Projet-AlgorithmeAES-Cryptographie)
 include_directories(include)
 
 add_executable(testAES testAES.cpp
-        src/ChiffrementAES.cpp)
+        src/ChiffrementAES.cpp
+        include/Octet.h
+        src/Octet.cpp)
