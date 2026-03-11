@@ -2,6 +2,8 @@
 #define CHIFFREMENTAES_H
 
 #include <string>
+
+#include "Octet.h"
 using namespace std;
 
 class ChiffrementAES {
@@ -18,6 +20,7 @@ public:
     ChiffrementAES(const string& nomFichierPourChiffrement, const string& nomFichierChiffre) ;
 
     void faireChiffrement() const ;
+
 
 
 

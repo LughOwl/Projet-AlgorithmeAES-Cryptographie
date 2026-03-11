@@ -6,4 +6,6 @@ include_directories(include)
 add_executable(testAES testAES.cpp
         src/ChiffrementAES.cpp
         include/Octet.h
-        src/Octet.cpp)
+        src/Octet.cpp
+        include/Mot.h
+        src/Mot.cpp)

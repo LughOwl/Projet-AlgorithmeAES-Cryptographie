@@ -18,6 +18,14 @@ class Octet{
 
     void setBit(int pos,bool val);
 
-    bool getBit() const;
+    bool getBit(int pos) const;
+
+    Octet& operator|(const Octet &o) const ;
+
+    Octet& operator&(const Octet &o) const ;
+
+    Octet& operator+(const Octet &o) const;
+
+    Octet& operator*(const Octet &o) const;
 };
 #endif //OCTET_H

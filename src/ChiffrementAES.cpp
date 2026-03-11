@@ -17,6 +17,8 @@ void ChiffrementAES::faireChiffrement() const{
         cout << "Erreur: impossible d'ouvrir le fichier " + chaine << endl;
     }
 
+    //Initialisation de la variable state
+    Octet state[4][4];
 
 
     //Boucle While pour traiter le message par bloc de 128 bits (4 mots de 32 bits)
